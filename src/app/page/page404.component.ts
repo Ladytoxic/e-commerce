@@ -8,7 +8,6 @@ import { Meta, Title } from '@angular/platform-browser';
   <h2>404</h2>
   <span>Not Found</span>
   </div>`,
-  styleUrls: ['./page404.component.scss']
 })
 export class Page404Component {
   constructor(private titleService: Title,
