@@ -1,52 +1,69 @@
 [
     {
-        "nombre": "Leche",
-        "precio": 1.5,
-        "descripcion": "Leche entera, 1 litro",
-        "categoria": "Lácteos",
-        "stock": 50
+        "nombre": "Lomitos de Atún",
+        "img":"https://ardiaprod.vtexassets.com/arquivos/ids/247785-800-auto?v=638167490214670000&width=800&height=auto&aspect=true",
+        "marca": "DIA",
+        "precio": 316.90,
+        "descripcion": "Al natural, 170 Gr.",
+        "categoria": "Conservas",
+        "stock": 10,
+        "descuento": 5
     },
     {
-        "nombre": "Pan",
-        "precio": 1,
-        "descripcion": "Pan blanco, 500 gramos",
-        "categoria": "Panadería",
-        "stock": 100
+        "nombre": "Lomitos de Atún",
+        "img":"https://ardiaprod.vtexassets.com/arquivos/ids/247786-800-auto?v=638167490232100000&width=800&height=auto&aspect=true",
+        "marca": "DIA",
+        "precio": 316.90,
+        "descripcion": "En Aceite, 170 Gr.",
+        "categoria": "Conservas",
+        "stock": 15,
+        "descuento": 5
     },
     {
-        "nombre": "Huevos",
-        "precio": 2,
-        "descripcion": "Huevos frescos, media docena",
-        "categoria": "Huevos y lácteos",
-        "stock": 30
-    },
-    {
-        "nombre": "Pollo",
-        "precio": 7,
-        "descripcion": "Pollo entero, 1 kilogramo",
-        "categoria": "Carnes",
+        "nombre": "Fideos Spaghetti",
+        "marca": "Lucchetti",
+        "precio": 182.29,
+        "descripcion": "Fideos largos, 500 Gr.",
+        "categoria": "Pastas Secas",
         "stock": 20
     },
     {
-        "nombre": "Manzanas",
-        "precio": 3,
-        "descripcion": "Manzanas rojas, 1 kilogramo",
-        "categoria": "Frutas",
+        "nombre": "Fideos al Huevo Tallarín",
+        "marca": "DON VICENTE",
+        "precio": 384.30,
+        "descripcion": "Fideos largos, 500 Gr.",
+        "categoria": "Pastas Secas",
         "stock": 40
     },
     {
-        "nombre": "Arroz",
-        "precio": 2.5,
-        "descripcion": "Arroz blanco, 1 kilogramo",
-        "categoria": "Granos",
-        "stock": 80
+        "nombre": "Aceite de Girasol",
+        "img":"https://ardiaprod.vtexassets.com/arquivos/ids/230207-800-auto?v=638017808086030000&width=800&height=auto&aspect=true",
+        "marca": "Legítimo",
+        "precio": 446.50,
+        "descripcion": "Aceites de girasol, 1,5 Lts",
+        "categoria": "Aceites y Aderezos",
+        "stock": 80,
+        "descuento": 5
     },
     {
-        "nombre": "Atún",
-        "precio": 3,
-        "descripcion": "Atún enlatado, 200 gramos",
-        "categoria": "Conservas",
-        "stock": 45
+        "nombre": "Aceite de Girasol",
+        "img":"https://ardiaprod.vtexassets.com/arquivos/ids/197858-800-auto?v=637559816874500000&width=800&height=auto&aspect=true",
+        "marca": "Natura",
+        "precio": 496.20,
+        "descripcion": "Aceites de girasol, 1,5 Lts",
+        "categoria": "Aceites y Aderezos",
+        "stock": 80,
+        "descuento": 5
+    },
+    {
+        "nombre": "Puré de Tomate",
+        "img":"https://ardiaprod.vtexassets.com/arquivos/ids/229432-800-auto?v=637988421162470000&width=800&height=auto&aspect=true",
+        "marca": "Arcor",
+        "precio": 167.70,
+        "descripcion": "Puré de Tomate, 530 Gr.",
+        "categoria": "Tomates y Salsas",
+        "stock": 80,
+        "descuento": 10
     },
     {
         "nombre": "Papas",

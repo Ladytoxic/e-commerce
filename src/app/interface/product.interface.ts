@@ -1,8 +1,11 @@
 export interface Producto {
-    nombre: string;
-    precio: number;
-    descripcion: string;
-    categoria: string;
-    stock: number;
-  }
-  
+  id?: string;
+  marca?: string;
+  img?: string;
+  nombre: string;
+  precio: number;
+  descripcion: string;
+  categoria: string;
+  stock: number;
+  descuento?: number;
+}

@@ -1,1 +1,22 @@
-<p>product-details works!</p>
+<section>
+    <h2>Catalogo de Productos</h2>
+    <div class="cards">
+        <div class="card" *ngFor="let producto of products">
+          <div class="card-header">
+            <img [src]="producto.img" [alt]="'imagen de '+ producto.nombre" (error)="producto.img = '{{img_default}}'" *ngIf="producto.img">
+            <img [src]="img_default" [alt]="'imagen de '+ producto.nombre" *ngIf="!producto.img">
+            <em>{{ producto.marca ? producto.marca.toUpperCase() : '' }}</em>
+            <h3>{{ producto.nombre }}</h3>
+            <span *ngIf="producto.descuento" class="discount">{{ producto.descuento }}% OFF</span>
+          </div>
+          <div class="card-body">
+              <p><span class="label">Descripción:</span> {{ producto.descripcion }}</p>
+              <p><span class="label">Categoría:</span> {{ producto.categoria }}</p>
+              <p><span class="price">{{ producto.precio | currency }}</span></p>
+              <p class="stock"><span class="label">Stock:</span> <span>{{ producto.stock }} {{ producto.stock === 1 ? 'Disponible' : 'Disponibles' }}</span></p>
+           </div>
+           <button>Agregar</button>
+       </div>
+        <p *ngIf="!products">No hay productos</p>
+    </div>
+</section>
