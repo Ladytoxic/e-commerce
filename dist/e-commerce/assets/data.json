@@ -1,0 +1,124 @@
+[
+    {
+        "nombre": "Lomitos de Atún",
+        "img":"https://ardiaprod.vtexassets.com/arquivos/ids/247785-800-auto?v=638167490214670000&width=800&height=auto&aspect=true",
+        "marca": "DIA",
+        "precio": 316.90,
+        "descripcion": "Al natural, 170 Gr.",
+        "categoria": "Conservas",
+        "stock": 10,
+        "descuento": 5
+    },
+    {
+        "nombre": "Lomitos de Atún",
+        "img":"https://ardiaprod.vtexassets.com/arquivos/ids/247786-800-auto?v=638167490232100000&width=800&height=auto&aspect=true",
+        "marca": "DIA",
+        "precio": 316.90,
+        "descripcion": "En Aceite, 170 Gr.",
+        "categoria": "Conservas",
+        "stock": 15,
+        "descuento": 5
+    },
+    {
+        "nombre": "Fideos Spaghetti",
+        "marca": "Lucchetti",
+        "precio": 182.29,
+        "descripcion": "Fideos largos, 500 Gr.",
+        "categoria": "Pastas Secas",
+        "stock": 20
+    },
+    {
+        "nombre": "Fideos al Huevo Tallarín",
+        "marca": "DON VICENTE",
+        "precio": 384.30,
+        "descripcion": "Fideos largos, 500 Gr.",
+        "categoria": "Pastas Secas",
+        "stock": 40
+    },
+    {
+        "nombre": "Aceite de Girasol",
+        "img":"https://ardiaprod.vtexassets.com/arquivos/ids/230207-800-auto?v=638017808086030000&width=800&height=auto&aspect=true",
+        "marca": "Legítimo",
+        "precio": 446.50,
+        "descripcion": "Aceites de girasol, 1,5 Lts",
+        "categoria": "Aceites y Aderezos",
+        "stock": 80,
+        "descuento": 5
+    },
+    {
+        "nombre": "Aceite de Girasol",
+        "img":"https://ardiaprod.vtexassets.com/arquivos/ids/197858-800-auto?v=637559816874500000&width=800&height=auto&aspect=true",
+        "marca": "Natura",
+        "precio": 496.20,
+        "descripcion": "Aceites de girasol, 1,5 Lts",
+        "categoria": "Aceites y Aderezos",
+        "stock": 80,
+        "descuento": 5
+    },
+    {
+        "nombre": "Puré de Tomate",
+        "img":"https://ardiaprod.vtexassets.com/arquivos/ids/229432-800-auto?v=637988421162470000&width=800&height=auto&aspect=true",
+        "marca": "Arcor",
+        "precio": 167.70,
+        "descripcion": "Puré de Tomate, 530 Gr.",
+        "categoria": "Tomates y Salsas",
+        "stock": 80,
+        "descuento": 10
+    },
+    {
+        "nombre": "Papas",
+        "precio": 1.5,
+        "descripcion": "Papas blancas, 1 kilogramo",
+        "categoria": "Verduras",
+        "stock": 60
+    },
+    {
+        "nombre": "Yogurt",
+        "precio": 1.8,
+        "descripcion": "Yogurt natural, 500 gramos",
+        "categoria": "Lácteos",
+        "stock": 35
+    },
+    {
+        "nombre": "Jamón",
+        "precio": 4,
+        "descripcion": "Jamón de cerdo, 200 gramos",
+        "categoria": "Carnes frías",
+        "stock": 25
+    },
+    {
+        "nombre": "Tomates",
+        "precio": 2,
+        "descripcion": "Tomates maduros, 1 kilogramo",
+        "categoria": "Frutas y verduras",
+        "stock": 55
+    },
+    {
+        "nombre": "Pasta",
+        "precio": 1.5,
+        "descripcion": "Pasta larga, 500 gramos",
+        "categoria": "Pastas",
+        "stock": 70
+    },
+    {
+        "nombre": "Galletas",
+        "precio": 2.5,
+        "descripcion": "Galletas integrales, 250 gramos",
+        "categoria": "Snacks",
+        "stock": 20
+    },
+    {
+        "nombre": "Café",
+        "precio": 5,
+        "descripcion": "Café molido, 250 gramos",
+        "categoria": "Bebidas",
+        "stock": 40
+    },
+    {
+        "nombre": "Lechuga",
+        "precio": 1,
+        "descripcion": "Lechuga fresca, 1 unidad",
+        "categoria": "Verduras",
+        "stock": 30
+    }
+]

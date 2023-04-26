@@ -145,13 +145,13 @@ main {
 
         .precio-tachado {
           margin: 0.5rem 0;
-          color: gray;
+          color: #474747;
           text-decoration: line-through;
         }
 
         .discount {
           font-weight: 550;
-          color: #018d01;
+          color: #258300;
           padding: 0.2rem 0.5rem;
           font-weight: 500;
           font-size: 1.2rem;
@@ -160,7 +160,7 @@ main {
 
         .stock {
           text-align: center;
-          color: gray;
+          color: #474747;
           margin: 1rem;
         }
       }
