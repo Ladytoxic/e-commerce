@@ -27,7 +27,7 @@ import { DataService } from 'src/app/service/data.service';
                </ng-template>
               <p class="stock"><span class="label">Stock:</span> <span>{{ producto.stock }} {{ producto.stock === 1 ? 'Disponible' : 'Disponibles' }}</span></p>
            </div>
-           <button>Agregar</button>
+           <button (click)="agregar(producto)" aria-label="Agregar producto al carrito" title="Agregar producto al carrito">Agregar</button>
        </div>
         <p *ngIf="!products">No hay productos</p>
     </div>
@@ -46,5 +46,8 @@ export class ProductListComponent {
     const descuentoDecimal = descuento / 100;
     const precioConDescuento = precio - (precio * descuentoDecimal);
     return precioConDescuento;
+  }
+  agregar(producto: Producto) {
+    this.dataServ.addNewProduct(producto);
   }
 }

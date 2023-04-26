@@ -142,12 +142,13 @@ main {
           font-weight: 500;
           font-size: 1.6rem;
         }
+
         .precio-tachado {
           margin: 0.5rem 0;
           color: gray;
           text-decoration: line-through;
         }
-        
+
         .discount {
           font-weight: 550;
           color: #018d01;
@@ -170,6 +171,18 @@ main {
     text-align: center;
     flex-grow: 1;
     min-width: 18rem;
+
+    .box_total {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-top: 1px dashed rgb(80, 80, 80);
+      padding: 0.5rem 0;
+    }
+
+    ul {
+      list-style: none;
+    }
   }
 
   button {
