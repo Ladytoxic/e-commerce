@@ -3,7 +3,7 @@ import { Title, Meta } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-home',
-  template:`
+  template: `
   <app-navbar></app-navbar>
   <app-hero></app-hero>
   <main>
@@ -13,10 +13,10 @@ import { Title, Meta } from '@angular/platform-browser';
   <app-footer></app-footer>`
 })
 export class HomeComponent {
-
+  titulo = 'TortaFritas';
   constructor(private titleService: Title,
     private metaService: Meta) {
-    this.titleService.setTitle('HOME');
-    this.metaService.updateTag({ name: 'description', content: 'Nueva descripción de la página' });
+    this.titleService.setTitle('Tienda online de ' + this.titulo);
+    this.metaService.updateTag({ name: 'description', content: 'Tienda online de ' + this.titulo });
   }
 }

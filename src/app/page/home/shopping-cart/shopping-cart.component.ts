@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./shopping-cart.component.scss']
 })
 export class ShoppingCartComponent {
-
+total = 0;
 }

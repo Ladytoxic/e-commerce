@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
+  letter-spacing: 1px;
 }
 
 html {
@@ -41,22 +42,36 @@ nav {
     animation: focus-in-contract 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
   }
 
-  .btn-cart {
-    background-color: transparent;
-    background-image: url(./assets/carro.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    border: none;
-    cursor: pointer;
-    width: 2rem;
-    height: 2rem;
+  .cart {
     transition: all 0.3s;
-    margin: 0 0.3rem;
-    animation: focus-in-contract 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-  }
+    position: relative;
 
-  .btn-cart:hover {
-    transform: scale(1.2);
+    .acc_total {
+      position: absolute;
+      top: -5px;
+      right: -5px;
+      background-color: darkcyan;
+      color: azure;
+      border-radius: 50%;
+      font-size: 0.8rem;
+      padding: 0.2rem;
+      width: 1.3rem;
+      height: 1.3rem;
+      text-align: center;
+    }
+
+    .btn-cart {
+      width: 2rem;
+      height: 2rem;
+      background-color: transparent;
+      background-image: url(./assets/carro.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      border: none;
+      cursor: pointer;
+      margin: 0 0.3rem;
+      animation: focus-in-contract 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    }
   }
 }
 
@@ -72,6 +87,7 @@ nav {
     padding: 0.5rem 1rem;
     transition: all 0.3s;
     background-color: azure;
+    animation: shadow-inset-bottom 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     border: 1px solid darkcyan;
   }
 }
@@ -88,15 +104,11 @@ main {
     width: 100%;
     min-height: 80vh;
     padding: 1rem;
-  }
-
-  .cards,
-  .box {
     background-color: azure;
     border: 2px solid darkcyan;
     border-radius: 0.5rem;
-    box-shadow: 0.2rem 0.2rem darkcyan;
 
+    h5,
     h4,
     h3 {
       text-align: center;
@@ -104,16 +116,46 @@ main {
     }
 
     p {
+      margin: 1rem 0;
       color: #575757ee;
     }
   }
 
   .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 1rem;
+
     flex-grow: 4;
+
+    .card {
+      padding: 1rem;
+      width: 18rem;
+    }
   }
 
   .box {
+    text-align: center;
     flex-grow: 1;
+    min-width: 18rem;
+  }
+
+  button {
+    background-color: darkcyan;
+    border-radius: 1rem;
+    padding: 0.2rem 1rem;
+    border: none;
+    color: azure;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    transition: all 0.3s;
+    text-align: center;
+  }
+
+  button:hover {
+    animation: shadow-inset-bottom 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    transform: scale(1.1);
   }
 }
 

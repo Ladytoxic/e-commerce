@@ -1,0 +1,107 @@
+[
+    {
+        "nombre": "Leche",
+        "precio": 1.5,
+        "descripcion": "Leche entera, 1 litro",
+        "categoria": "Lácteos",
+        "stock": 50
+    },
+    {
+        "nombre": "Pan",
+        "precio": 1,
+        "descripcion": "Pan blanco, 500 gramos",
+        "categoria": "Panadería",
+        "stock": 100
+    },
+    {
+        "nombre": "Huevos",
+        "precio": 2,
+        "descripcion": "Huevos frescos, media docena",
+        "categoria": "Huevos y lácteos",
+        "stock": 30
+    },
+    {
+        "nombre": "Pollo",
+        "precio": 7,
+        "descripcion": "Pollo entero, 1 kilogramo",
+        "categoria": "Carnes",
+        "stock": 20
+    },
+    {
+        "nombre": "Manzanas",
+        "precio": 3,
+        "descripcion": "Manzanas rojas, 1 kilogramo",
+        "categoria": "Frutas",
+        "stock": 40
+    },
+    {
+        "nombre": "Arroz",
+        "precio": 2.5,
+        "descripcion": "Arroz blanco, 1 kilogramo",
+        "categoria": "Granos",
+        "stock": 80
+    },
+    {
+        "nombre": "Atún",
+        "precio": 3,
+        "descripcion": "Atún enlatado, 200 gramos",
+        "categoria": "Conservas",
+        "stock": 45
+    },
+    {
+        "nombre": "Papas",
+        "precio": 1.5,
+        "descripcion": "Papas blancas, 1 kilogramo",
+        "categoria": "Verduras",
+        "stock": 60
+    },
+    {
+        "nombre": "Yogurt",
+        "precio": 1.8,
+        "descripcion": "Yogurt natural, 500 gramos",
+        "categoria": "Lácteos",
+        "stock": 35
+    },
+    {
+        "nombre": "Jamón",
+        "precio": 4,
+        "descripcion": "Jamón de cerdo, 200 gramos",
+        "categoria": "Carnes frías",
+        "stock": 25
+    },
+    {
+        "nombre": "Tomates",
+        "precio": 2,
+        "descripcion": "Tomates maduros, 1 kilogramo",
+        "categoria": "Frutas y verduras",
+        "stock": 55
+    },
+    {
+        "nombre": "Pasta",
+        "precio": 1.5,
+        "descripcion": "Pasta larga, 500 gramos",
+        "categoria": "Pastas",
+        "stock": 70
+    },
+    {
+        "nombre": "Galletas",
+        "precio": 2.5,
+        "descripcion": "Galletas integrales, 250 gramos",
+        "categoria": "Snacks",
+        "stock": 20
+    },
+    {
+        "nombre": "Café",
+        "precio": 5,
+        "descripcion": "Café molido, 250 gramos",
+        "categoria": "Bebidas",
+        "stock": 40
+    },
+    {
+        "nombre": "Lechuga",
+        "precio": 1,
+        "descripcion": "Lechuga fresca, 1 unidad",
+        "categoria": "Verduras",
+        "stock": 30
+    }
+]

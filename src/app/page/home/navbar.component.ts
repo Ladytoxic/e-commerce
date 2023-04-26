@@ -6,10 +6,13 @@ import { Component } from '@angular/core';
 <nav>
     <span>{{titulo}}</span>
     <app-search-product></app-search-product>
-    <button class="btn-cart"></button>
+    <div class="cart">
+      <button class="btn-cart"></button>
+      <span class="acc_total">{{ total }}</span>
+    </div>
 </nav>`
 })
 export class NavbarComponent {
-  titulo = 'Mi Negocio';
-  acc = 0;
+  titulo = 'Mi negocio de tortas fritas';
+  total = 0;
 }
